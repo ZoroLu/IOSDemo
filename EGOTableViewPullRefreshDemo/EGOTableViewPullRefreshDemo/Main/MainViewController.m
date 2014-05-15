@@ -68,6 +68,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
+    NSLog([NSString stringWithFormat:@"RELOAD:%d",_refreshTimes]);
     cell.textLabel.text = [self.array objectAtIndex:indexPath.row];
     return cell;
 }
