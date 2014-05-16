@@ -19,6 +19,10 @@
 		8B49A5C919258A8300F65B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B49A5B119258A8200F65B2C /* UIKit.framework */; };
 		8B49A5D119258A8300F65B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B49A5CF19258A8300F65B2C /* InfoPlist.strings */; };
 		8B49A5D319258A8300F65B2C /* CollectionItemEnlargeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49A5D219258A8300F65B2C /* CollectionItemEnlargeTests.m */; };
+		8B49A5E019258C0400F65B2C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49A5DE19258C0400F65B2C /* MainViewController.m */; };
+		8B49A5E119258C0400F65B2C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B49A5DF19258C0400F65B2C /* MainViewController.xib */; };
+		8B49A5E519258D2500F65B2C /* ZRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49A5E419258D2500F65B2C /* ZRCollectionViewCell.m */; };
+		8B49A5E719258D4D00F65B2C /* ZRCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B49A5E619258D4D00F65B2C /* ZRCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		8B49A5CE19258A8300F65B2C /* CollectionItemEnlargeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionItemEnlargeTests-Info.plist"; sourceTree = "<group>"; };
 		8B49A5D019258A8300F65B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B49A5D219258A8300F65B2C /* CollectionItemEnlargeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionItemEnlargeTests.m; sourceTree = "<group>"; };
+		8B49A5DD19258C0400F65B2C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Main/MainViewController.h; sourceTree = "<group>"; };
+		8B49A5DE19258C0400F65B2C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Main/MainViewController.m; sourceTree = "<group>"; };
+		8B49A5DF19258C0400F65B2C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = Main/MainViewController.xib; sourceTree = "<group>"; };
+		8B49A5E319258D2500F65B2C /* ZRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZRCollectionViewCell.h; path = View/ZRCollectionViewCell.h; sourceTree = "<group>"; };
+		8B49A5E419258D2500F65B2C /* ZRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZRCollectionViewCell.m; path = View/ZRCollectionViewCell.m; sourceTree = "<group>"; };
+		8B49A5E619258D4D00F65B2C /* ZRCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZRCollectionViewCell.xib; path = View/ZRCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,8 @@
 		8B49A5B319258A8200F65B2C /* CollectionItemEnlarge */ = {
 			isa = PBXGroup;
 			children = (
+				8B49A5E219258CDA00F65B2C /* View */,
+				8B49A5DC19258BD000F65B2C /* Main */,
 				8B49A5BC19258A8200F65B2C /* AppDelegate.h */,
 				8B49A5BD19258A8200F65B2C /* AppDelegate.m */,
 				8B49A5BF19258A8200F65B2C /* Images.xcassets */,
@@ -142,6 +154,26 @@
 				8B49A5CF19258A8300F65B2C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B49A5DC19258BD000F65B2C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8B49A5DD19258C0400F65B2C /* MainViewController.h */,
+				8B49A5DE19258C0400F65B2C /* MainViewController.m */,
+				8B49A5DF19258C0400F65B2C /* MainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8B49A5E219258CDA00F65B2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B49A5E319258D2500F65B2C /* ZRCollectionViewCell.h */,
+				8B49A5E419258D2500F65B2C /* ZRCollectionViewCell.m */,
+				8B49A5E619258D4D00F65B2C /* ZRCollectionViewCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B49A5E719258D4D00F65B2C /* ZRCollectionViewCell.xib in Resources */,
 				8B49A5B819258A8200F65B2C /* InfoPlist.strings in Resources */,
+				8B49A5E119258C0400F65B2C /* MainViewController.xib in Resources */,
 				8B49A5C019258A8200F65B2C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B49A5E519258D2500F65B2C /* ZRCollectionViewCell.m in Sources */,
 				8B49A5BE19258A8200F65B2C /* AppDelegate.m in Sources */,
+				8B49A5E019258C0400F65B2C /* MainViewController.m in Sources */,
 				8B49A5BA19258A8200F65B2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +473,7 @@
 				8B49A5D819258A8300F65B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B49A5D919258A8300F65B2C /* Build configuration list for PBXNativeTarget "CollectionItemEnlargeTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +482,7 @@
 				8B49A5DB19258A8300F65B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
