@@ -26,6 +26,7 @@
     return self;
 }
 
+//show Popover At Point
 + (void)showPopoverAtPoint:(CGPoint)point inView:(UIView *)view withContentView:(UIView *)cView{
     ZRPopoverView *popView = [[ZRPopoverView alloc] initWithFrame:CGRectZero];
     [popView showPopoverAtPoint:point inView:view withContentView:cView];
@@ -67,22 +68,42 @@
     }];
 }
 
-//#define ZRGradientTopColor [UIColor colorWithWhite:1.f alpha:0.95]
-//#define ZRGradientBottomColor [UIColor colorWithWhite:0.98f alpha:0.95]
+//show popover view at rect
++ (void)showPopoverAtRect:(CGRect)rect inView:(UIView *)view withContentView:(UIView *)cView{
+    ZRPopoverView* popView = [[ZRPopoverView alloc] initWithFrame:CGRectZero];
+    [popView showPopoverAtRect:rect inView:view withContentView:cView];
+}
+
+
+- (void)showPopoverAtRect:(CGRect)rect inView:(UIView *)view withContentView:(UIView *)cView{
+
+    self.boxFrame = cView.frame;
+    self.contentView = cView;
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    if (!window) {
+        window = [[UIApplication sharedApplication].windows objectAtIndex:0];
+    }
+    UIView* topView = [[window subviews] objectAtIndex:0];
+   
+    CGRect topViewBounds = topView.bounds;
+    _contentView.frame = _boxFrame;
+    _contentView.hidden = NO;
+    [self addSubview:_contentView];
+    
+    self.frame = topViewBounds;
+    [self setNeedsDisplay];
+    
+    [topView addSubview:self];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
+    [self addGestureRecognizer:tap];
+    self.userInteractionEnabled = YES;
+    
+    
+    
+}
 
 - (void)drawRect:(CGRect)rect
 {
-//    CGRect frame = _boxFrame;
-//    float xMin = CGRectGetMinX(_boxFrame);
-//    float yMin = CGRectGetMinY(_boxFrame);
-//    float xMax = CGRectGetMaxX(_boxFrame);
-//    float yMax = CGRectGetMaxy(_boxFrame);
-//    float radius = 4.f;
-//    float cpOffset = 1.8f;
-//    
-//    UIBezierPath *popoverPath = [UIBezierPath bezierPath];
-//    [popoverPath moveToPoint:CGPointMake(xMin + radius, yMin)];
-//    [popoverPath addCurveToPoint:CGPointMake(xMin + radius, yMin) controlPoint1:CGPointMake(xMin, yMin + radius - cpOffset ) controlPoint2:CGPointMake(xMin + radius - cpOffset, yMin)];
     
 }
 
