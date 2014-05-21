@@ -10,6 +10,7 @@
 
 #import "MainViewController.h"
 #import "OneSectionDataSource.h"
+#import "SecondViewController.h"
 
 @interface MainViewController ()
 
@@ -53,5 +54,9 @@ static NSString* ReuseIdentifier = @"UITableViewCellIdentifier";
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    SecondViewController* secondVC = [[SecondViewController alloc] init];
+    [self presentViewController:secondVC animated:YES completion:nil];
+}
 
 @end
