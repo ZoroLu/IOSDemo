@@ -7,182 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B5F6AAA192C378200367D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5F6AA9192C378200367D9D /* Foundation.framework */; };
-		8B5F6AAC192C378200367D9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5F6AAB192C378200367D9D /* CoreGraphics.framework */; };
-		8B5F6AAE192C378200367D9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5F6AAD192C378200367D9D /* UIKit.framework */; };
-		8B5F6AB4192C378200367D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F6AB2192C378200367D9D /* InfoPlist.strings */; };
-		8B5F6AB6192C378200367D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F6AB5192C378200367D9D /* main.m */; };
-		8B5F6ABA192C378200367D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F6AB9192C378200367D9D /* AppDelegate.m */; };
-		8B5F6ABC192C378200367D9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F6ABB192C378200367D9D /* Images.xcassets */; };
-		8B5F6AC3192C378200367D9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5F6AC2192C378200367D9D /* XCTest.framework */; };
-		8B5F6AC4192C378200367D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5F6AA9192C378200367D9D /* Foundation.framework */; };
-		8B5F6AC5192C378200367D9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5F6AAD192C378200367D9D /* UIKit.framework */; };
-		8B5F6ACD192C378200367D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F6ACB192C378200367D9D /* InfoPlist.strings */; };
-		8B5F6ACF192C378200367D9D /* ReuseUITableViewDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F6ACE192C378200367D9D /* ReuseUITableViewDataSourceTests.m */; };
-		8B5F6ADC192C383700367D9D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F6ADA192C383700367D9D /* MainViewController.m */; };
-		8B5F6ADD192C383700367D9D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F6ADB192C383700367D9D /* MainViewController.xib */; };
-		8B5F6AE1192C388200367D9D /* UITableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F6AE0192C388200367D9D /* UITableViewDataSource.m */; };
+		8BA7BBB5192D584F00B7A923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7BBB4192D584F00B7A923 /* Foundation.framework */; };
+		8BA7BBB7192D584F00B7A923 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7BBB6192D584F00B7A923 /* CoreGraphics.framework */; };
+		8BA7BBB9192D584F00B7A923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7BBB8192D584F00B7A923 /* UIKit.framework */; };
+		8BA7BBBF192D584F00B7A923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBBD192D584F00B7A923 /* InfoPlist.strings */; };
+		8BA7BBC1192D584F00B7A923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBC0192D584F00B7A923 /* main.m */; };
+		8BA7BBC5192D584F00B7A923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBC4192D584F00B7A923 /* AppDelegate.m */; };
+		8BA7BBC7192D584F00B7A923 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBC6192D584F00B7A923 /* Images.xcassets */; };
+		8BA7BBCE192D585000B7A923 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7BBCD192D585000B7A923 /* XCTest.framework */; };
+		8BA7BBCF192D585000B7A923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7BBB4192D584F00B7A923 /* Foundation.framework */; };
+		8BA7BBD0192D585000B7A923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7BBB8192D584F00B7A923 /* UIKit.framework */; };
+		8BA7BBD8192D585000B7A923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBD6192D585000B7A923 /* InfoPlist.strings */; };
+		8BA7BBDA192D585000B7A923 /* ReuseUITableViewDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBD9192D585000B7A923 /* ReuseUITableViewDataSourceTests.m */; };
+		8BA7BBE7192D588300B7A923 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE5192D588300B7A923 /* MainViewController.m */; };
+		8BA7BBE8192D588300B7A923 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE6192D588300B7A923 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B5F6AC6192C378200367D9D /* PBXContainerItemProxy */ = {
+		8BA7BBD1192D585000B7A923 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8B5F6A9E192C378200367D9D /* Project object */;
+			containerPortal = 8BA7BBA9192D584F00B7A923 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B5F6AA5192C378200367D9D;
+			remoteGlobalIDString = 8BA7BBB0192D584F00B7A923;
 			remoteInfo = ReuseUITableViewDataSource;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B5F6AA6192C378200367D9D /* ReuseUITableViewDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReuseUITableViewDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B5F6AA9192C378200367D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8B5F6AAB192C378200367D9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8B5F6AAD192C378200367D9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8B5F6AB1192C378200367D9D /* ReuseUITableViewDataSource-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReuseUITableViewDataSource-Info.plist"; sourceTree = "<group>"; };
-		8B5F6AB3192C378200367D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B5F6AB5192C378200367D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8B5F6AB7192C378200367D9D /* ReuseUITableViewDataSource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReuseUITableViewDataSource-Prefix.pch"; sourceTree = "<group>"; };
-		8B5F6AB8192C378200367D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8B5F6AB9192C378200367D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B5F6ABB192C378200367D9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8B5F6AC1192C378200367D9D /* ReuseUITableViewDataSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseUITableViewDataSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B5F6AC2192C378200367D9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8B5F6ACA192C378200367D9D /* ReuseUITableViewDataSourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReuseUITableViewDataSourceTests-Info.plist"; sourceTree = "<group>"; };
-		8B5F6ACC192C378200367D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B5F6ACE192C378200367D9D /* ReuseUITableViewDataSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReuseUITableViewDataSourceTests.m; sourceTree = "<group>"; };
-		8B5F6AD9192C383700367D9D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MainController/MainViewController.h; sourceTree = "<group>"; };
-		8B5F6ADA192C383700367D9D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MainController/MainViewController.m; sourceTree = "<group>"; };
-		8B5F6ADB192C383700367D9D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = MainController/MainViewController.xib; sourceTree = "<group>"; };
-		8B5F6ADF192C388200367D9D /* UITableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITableViewDataSource.h; path = Classes/UITableViewDataSource.h; sourceTree = "<group>"; };
-		8B5F6AE0192C388200367D9D /* UITableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableViewDataSource.m; path = Classes/UITableViewDataSource.m; sourceTree = "<group>"; };
+		8BA7BBB1192D584F00B7A923 /* ReuseUITableViewDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReuseUITableViewDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7BBB4192D584F00B7A923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BA7BBB6192D584F00B7A923 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BA7BBB8192D584F00B7A923 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BA7BBBC192D584F00B7A923 /* ReuseUITableViewDataSource-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReuseUITableViewDataSource-Info.plist"; sourceTree = "<group>"; };
+		8BA7BBBE192D584F00B7A923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BA7BBC0192D584F00B7A923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BA7BBC2192D584F00B7A923 /* ReuseUITableViewDataSource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReuseUITableViewDataSource-Prefix.pch"; sourceTree = "<group>"; };
+		8BA7BBC3192D584F00B7A923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BA7BBC4192D584F00B7A923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BA7BBC6192D584F00B7A923 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BA7BBCC192D585000B7A923 /* ReuseUITableViewDataSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseUITableViewDataSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7BBCD192D585000B7A923 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BA7BBD5192D585000B7A923 /* ReuseUITableViewDataSourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReuseUITableViewDataSourceTests-Info.plist"; sourceTree = "<group>"; };
+		8BA7BBD7192D585000B7A923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BA7BBD9192D585000B7A923 /* ReuseUITableViewDataSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReuseUITableViewDataSourceTests.m; sourceTree = "<group>"; };
+		8BA7BBE4192D588300B7A923 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MainViewController/MainViewController.h; sourceTree = "<group>"; };
+		8BA7BBE5192D588300B7A923 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MainViewController/MainViewController.m; sourceTree = "<group>"; };
+		8BA7BBE6192D588300B7A923 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = MainViewController/MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B5F6AA3192C378200367D9D /* Frameworks */ = {
+		8BA7BBAE192D584F00B7A923 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5F6AAC192C378200367D9D /* CoreGraphics.framework in Frameworks */,
-				8B5F6AAE192C378200367D9D /* UIKit.framework in Frameworks */,
-				8B5F6AAA192C378200367D9D /* Foundation.framework in Frameworks */,
+				8BA7BBB7192D584F00B7A923 /* CoreGraphics.framework in Frameworks */,
+				8BA7BBB9192D584F00B7A923 /* UIKit.framework in Frameworks */,
+				8BA7BBB5192D584F00B7A923 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B5F6ABE192C378200367D9D /* Frameworks */ = {
+		8BA7BBC9192D585000B7A923 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5F6AC3192C378200367D9D /* XCTest.framework in Frameworks */,
-				8B5F6AC5192C378200367D9D /* UIKit.framework in Frameworks */,
-				8B5F6AC4192C378200367D9D /* Foundation.framework in Frameworks */,
+				8BA7BBCE192D585000B7A923 /* XCTest.framework in Frameworks */,
+				8BA7BBD0192D585000B7A923 /* UIKit.framework in Frameworks */,
+				8BA7BBCF192D585000B7A923 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B5F6A9D192C378200367D9D = {
+		8BA7BBA8192D584F00B7A923 = {
 			isa = PBXGroup;
 			children = (
-				8B5F6AAF192C378200367D9D /* ReuseUITableViewDataSource */,
-				8B5F6AC8192C378200367D9D /* ReuseUITableViewDataSourceTests */,
-				8B5F6AA8192C378200367D9D /* Frameworks */,
-				8B5F6AA7192C378200367D9D /* Products */,
+				8BA7BBBA192D584F00B7A923 /* ReuseUITableViewDataSource */,
+				8BA7BBD3192D585000B7A923 /* ReuseUITableViewDataSourceTests */,
+				8BA7BBB3192D584F00B7A923 /* Frameworks */,
+				8BA7BBB2192D584F00B7A923 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B5F6AA7192C378200367D9D /* Products */ = {
+		8BA7BBB2192D584F00B7A923 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6AA6192C378200367D9D /* ReuseUITableViewDataSource.app */,
-				8B5F6AC1192C378200367D9D /* ReuseUITableViewDataSourceTests.xctest */,
+				8BA7BBB1192D584F00B7A923 /* ReuseUITableViewDataSource.app */,
+				8BA7BBCC192D585000B7A923 /* ReuseUITableViewDataSourceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B5F6AA8192C378200367D9D /* Frameworks */ = {
+		8BA7BBB3192D584F00B7A923 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6AA9192C378200367D9D /* Foundation.framework */,
-				8B5F6AAB192C378200367D9D /* CoreGraphics.framework */,
-				8B5F6AAD192C378200367D9D /* UIKit.framework */,
-				8B5F6AC2192C378200367D9D /* XCTest.framework */,
+				8BA7BBB4192D584F00B7A923 /* Foundation.framework */,
+				8BA7BBB6192D584F00B7A923 /* CoreGraphics.framework */,
+				8BA7BBB8192D584F00B7A923 /* UIKit.framework */,
+				8BA7BBCD192D585000B7A923 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8B5F6AAF192C378200367D9D /* ReuseUITableViewDataSource */ = {
+		8BA7BBBA192D584F00B7A923 /* ReuseUITableViewDataSource */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6ADE192C385400367D9D /* Classes */,
-				8B5F6AD8192C37DF00367D9D /* MainController */,
-				8B5F6AB8192C378200367D9D /* AppDelegate.h */,
-				8B5F6AB9192C378200367D9D /* AppDelegate.m */,
-				8B5F6ABB192C378200367D9D /* Images.xcassets */,
-				8B5F6AB0192C378200367D9D /* Supporting Files */,
+				8BA7BBE3192D585800B7A923 /* MainViewController */,
+				8BA7BBC3192D584F00B7A923 /* AppDelegate.h */,
+				8BA7BBC4192D584F00B7A923 /* AppDelegate.m */,
+				8BA7BBC6192D584F00B7A923 /* Images.xcassets */,
+				8BA7BBBB192D584F00B7A923 /* Supporting Files */,
 			);
 			path = ReuseUITableViewDataSource;
 			sourceTree = "<group>";
 		};
-		8B5F6AB0192C378200367D9D /* Supporting Files */ = {
+		8BA7BBBB192D584F00B7A923 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6AB1192C378200367D9D /* ReuseUITableViewDataSource-Info.plist */,
-				8B5F6AB2192C378200367D9D /* InfoPlist.strings */,
-				8B5F6AB5192C378200367D9D /* main.m */,
-				8B5F6AB7192C378200367D9D /* ReuseUITableViewDataSource-Prefix.pch */,
+				8BA7BBBC192D584F00B7A923 /* ReuseUITableViewDataSource-Info.plist */,
+				8BA7BBBD192D584F00B7A923 /* InfoPlist.strings */,
+				8BA7BBC0192D584F00B7A923 /* main.m */,
+				8BA7BBC2192D584F00B7A923 /* ReuseUITableViewDataSource-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8B5F6AC8192C378200367D9D /* ReuseUITableViewDataSourceTests */ = {
+		8BA7BBD3192D585000B7A923 /* ReuseUITableViewDataSourceTests */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6ACE192C378200367D9D /* ReuseUITableViewDataSourceTests.m */,
-				8B5F6AC9192C378200367D9D /* Supporting Files */,
+				8BA7BBD9192D585000B7A923 /* ReuseUITableViewDataSourceTests.m */,
+				8BA7BBD4192D585000B7A923 /* Supporting Files */,
 			);
 			path = ReuseUITableViewDataSourceTests;
 			sourceTree = "<group>";
 		};
-		8B5F6AC9192C378200367D9D /* Supporting Files */ = {
+		8BA7BBD4192D585000B7A923 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6ACA192C378200367D9D /* ReuseUITableViewDataSourceTests-Info.plist */,
-				8B5F6ACB192C378200367D9D /* InfoPlist.strings */,
+				8BA7BBD5192D585000B7A923 /* ReuseUITableViewDataSourceTests-Info.plist */,
+				8BA7BBD6192D585000B7A923 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8B5F6AD8192C37DF00367D9D /* MainController */ = {
+		8BA7BBE3192D585800B7A923 /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8B5F6AD9192C383700367D9D /* MainViewController.h */,
-				8B5F6ADA192C383700367D9D /* MainViewController.m */,
-				8B5F6ADB192C383700367D9D /* MainViewController.xib */,
+				8BA7BBE4192D588300B7A923 /* MainViewController.h */,
+				8BA7BBE5192D588300B7A923 /* MainViewController.m */,
+				8BA7BBE6192D588300B7A923 /* MainViewController.xib */,
 			);
-			name = MainController;
-			sourceTree = "<group>";
-		};
-		8B5F6ADE192C385400367D9D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8B5F6ADF192C388200367D9D /* UITableViewDataSource.h */,
-				8B5F6AE0192C388200367D9D /* UITableViewDataSource.m */,
-			);
-			name = Classes;
+			name = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B5F6AA5192C378200367D9D /* ReuseUITableViewDataSource */ = {
+		8BA7BBB0192D584F00B7A923 /* ReuseUITableViewDataSource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B5F6AD2192C378200367D9D /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSource" */;
+			buildConfigurationList = 8BA7BBDD192D585000B7A923 /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSource" */;
 			buildPhases = (
-				8B5F6AA2192C378200367D9D /* Sources */,
-				8B5F6AA3192C378200367D9D /* Frameworks */,
-				8B5F6AA4192C378200367D9D /* Resources */,
+				8BA7BBAD192D584F00B7A923 /* Sources */,
+				8BA7BBAE192D584F00B7A923 /* Frameworks */,
+				8BA7BBAF192D584F00B7A923 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -190,123 +177,122 @@
 			);
 			name = ReuseUITableViewDataSource;
 			productName = ReuseUITableViewDataSource;
-			productReference = 8B5F6AA6192C378200367D9D /* ReuseUITableViewDataSource.app */;
+			productReference = 8BA7BBB1192D584F00B7A923 /* ReuseUITableViewDataSource.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B5F6AC0192C378200367D9D /* ReuseUITableViewDataSourceTests */ = {
+		8BA7BBCB192D585000B7A923 /* ReuseUITableViewDataSourceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B5F6AD5192C378200367D9D /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSourceTests" */;
+			buildConfigurationList = 8BA7BBE0192D585000B7A923 /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSourceTests" */;
 			buildPhases = (
-				8B5F6ABD192C378200367D9D /* Sources */,
-				8B5F6ABE192C378200367D9D /* Frameworks */,
-				8B5F6ABF192C378200367D9D /* Resources */,
+				8BA7BBC8192D585000B7A923 /* Sources */,
+				8BA7BBC9192D585000B7A923 /* Frameworks */,
+				8BA7BBCA192D585000B7A923 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B5F6AC7192C378200367D9D /* PBXTargetDependency */,
+				8BA7BBD2192D585000B7A923 /* PBXTargetDependency */,
 			);
 			name = ReuseUITableViewDataSourceTests;
 			productName = ReuseUITableViewDataSourceTests;
-			productReference = 8B5F6AC1192C378200367D9D /* ReuseUITableViewDataSourceTests.xctest */;
+			productReference = 8BA7BBCC192D585000B7A923 /* ReuseUITableViewDataSourceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B5F6A9E192C378200367D9D /* Project object */ = {
+		8BA7BBA9192D584F00B7A923 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = LGQ;
 				TargetAttributes = {
-					8B5F6AC0192C378200367D9D = {
-						TestTargetID = 8B5F6AA5192C378200367D9D;
+					8BA7BBCB192D585000B7A923 = {
+						TestTargetID = 8BA7BBB0192D584F00B7A923;
 					};
 				};
 			};
-			buildConfigurationList = 8B5F6AA1192C378200367D9D /* Build configuration list for PBXProject "ReuseUITableViewDataSource" */;
+			buildConfigurationList = 8BA7BBAC192D584F00B7A923 /* Build configuration list for PBXProject "ReuseUITableViewDataSource" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8B5F6A9D192C378200367D9D;
-			productRefGroup = 8B5F6AA7192C378200367D9D /* Products */;
+			mainGroup = 8BA7BBA8192D584F00B7A923;
+			productRefGroup = 8BA7BBB2192D584F00B7A923 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B5F6AA5192C378200367D9D /* ReuseUITableViewDataSource */,
-				8B5F6AC0192C378200367D9D /* ReuseUITableViewDataSourceTests */,
+				8BA7BBB0192D584F00B7A923 /* ReuseUITableViewDataSource */,
+				8BA7BBCB192D585000B7A923 /* ReuseUITableViewDataSourceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B5F6AA4192C378200367D9D /* Resources */ = {
+		8BA7BBAF192D584F00B7A923 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5F6AB4192C378200367D9D /* InfoPlist.strings in Resources */,
-				8B5F6ADD192C383700367D9D /* MainViewController.xib in Resources */,
-				8B5F6ABC192C378200367D9D /* Images.xcassets in Resources */,
+				8BA7BBBF192D584F00B7A923 /* InfoPlist.strings in Resources */,
+				8BA7BBE8192D588300B7A923 /* MainViewController.xib in Resources */,
+				8BA7BBC7192D584F00B7A923 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B5F6ABF192C378200367D9D /* Resources */ = {
+		8BA7BBCA192D585000B7A923 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5F6ACD192C378200367D9D /* InfoPlist.strings in Resources */,
+				8BA7BBD8192D585000B7A923 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B5F6AA2192C378200367D9D /* Sources */ = {
+		8BA7BBAD192D584F00B7A923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5F6ABA192C378200367D9D /* AppDelegate.m in Sources */,
-				8B5F6ADC192C383700367D9D /* MainViewController.m in Sources */,
-				8B5F6AE1192C388200367D9D /* UITableViewDataSource.m in Sources */,
-				8B5F6AB6192C378200367D9D /* main.m in Sources */,
+				8BA7BBC5192D584F00B7A923 /* AppDelegate.m in Sources */,
+				8BA7BBE7192D588300B7A923 /* MainViewController.m in Sources */,
+				8BA7BBC1192D584F00B7A923 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B5F6ABD192C378200367D9D /* Sources */ = {
+		8BA7BBC8192D585000B7A923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5F6ACF192C378200367D9D /* ReuseUITableViewDataSourceTests.m in Sources */,
+				8BA7BBDA192D585000B7A923 /* ReuseUITableViewDataSourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B5F6AC7192C378200367D9D /* PBXTargetDependency */ = {
+		8BA7BBD2192D585000B7A923 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B5F6AA5192C378200367D9D /* ReuseUITableViewDataSource */;
-			targetProxy = 8B5F6AC6192C378200367D9D /* PBXContainerItemProxy */;
+			target = 8BA7BBB0192D584F00B7A923 /* ReuseUITableViewDataSource */;
+			targetProxy = 8BA7BBD1192D585000B7A923 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B5F6AB2192C378200367D9D /* InfoPlist.strings */ = {
+		8BA7BBBD192D584F00B7A923 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B5F6AB3192C378200367D9D /* en */,
+				8BA7BBBE192D584F00B7A923 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8B5F6ACB192C378200367D9D /* InfoPlist.strings */ = {
+		8BA7BBD6192D585000B7A923 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B5F6ACC192C378200367D9D /* en */,
+				8BA7BBD7192D585000B7A923 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -314,7 +300,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8B5F6AD0192C378200367D9D /* Debug */ = {
+		8BA7BBDB192D585000B7A923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		8B5F6AD1192C378200367D9D /* Release */ = {
+		8BA7BBDC192D585000B7A923 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +370,7 @@
 			};
 			name = Release;
 		};
-		8B5F6AD3192C378200367D9D /* Debug */ = {
+		8BA7BBDE192D585000B7A923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -397,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		8B5F6AD4192C378200367D9D /* Release */ = {
+		8BA7BBDF192D585000B7A923 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -410,7 +396,7 @@
 			};
 			name = Release;
 		};
-		8B5F6AD6192C378200367D9D /* Debug */ = {
+		8BA7BBE1192D585000B7A923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReuseUITableViewDataSource.app/ReuseUITableViewDataSource";
@@ -432,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		8B5F6AD7192C378200367D9D /* Release */ = {
+		8BA7BBE2192D585000B7A923 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReuseUITableViewDataSource.app/ReuseUITableViewDataSource";
@@ -453,32 +439,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B5F6AA1192C378200367D9D /* Build configuration list for PBXProject "ReuseUITableViewDataSource" */ = {
+		8BA7BBAC192D584F00B7A923 /* Build configuration list for PBXProject "ReuseUITableViewDataSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B5F6AD0192C378200367D9D /* Debug */,
-				8B5F6AD1192C378200367D9D /* Release */,
+				8BA7BBDB192D585000B7A923 /* Debug */,
+				8BA7BBDC192D585000B7A923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B5F6AD2192C378200367D9D /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSource" */ = {
+		8BA7BBDD192D585000B7A923 /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B5F6AD3192C378200367D9D /* Debug */,
-				8B5F6AD4192C378200367D9D /* Release */,
+				8BA7BBDE192D585000B7A923 /* Debug */,
+				8BA7BBDF192D585000B7A923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8B5F6AD5192C378200367D9D /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSourceTests" */ = {
+		8BA7BBE0192D585000B7A923 /* Build configuration list for PBXNativeTarget "ReuseUITableViewDataSourceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B5F6AD6192C378200367D9D /* Debug */,
-				8B5F6AD7192C378200367D9D /* Release */,
+				8BA7BBE1192D585000B7A923 /* Debug */,
+				8BA7BBE2192D585000B7A923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8B5F6A9E192C378200367D9D /* Project object */;
+	rootObject = 8BA7BBA9192D584F00B7A923 /* Project object */;
 }

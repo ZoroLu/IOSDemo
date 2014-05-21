@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B5F6AA5192C378200367D9D"
+               BlueprintIdentifier = "8BA7BBB0192D584F00B7A923"
                BuildableName = "ReuseUITableViewDataSource.app"
                BlueprintName = "ReuseUITableViewDataSource"
                ReferencedContainer = "container:ReuseUITableViewDataSource.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B5F6AC0192C378200367D9D"
+               BlueprintIdentifier = "8BA7BBCB192D585000B7A923"
                BuildableName = "ReuseUITableViewDataSourceTests.xctest"
                BlueprintName = "ReuseUITableViewDataSourceTests"
                ReferencedContainer = "container:ReuseUITableViewDataSource.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B5F6AA5192C378200367D9D"
+            BlueprintIdentifier = "8BA7BBB0192D584F00B7A923"
             BuildableName = "ReuseUITableViewDataSource.app"
             BlueprintName = "ReuseUITableViewDataSource"
             ReferencedContainer = "container:ReuseUITableViewDataSource.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B5F6AA5192C378200367D9D"
+            BlueprintIdentifier = "8BA7BBB0192D584F00B7A923"
             BuildableName = "ReuseUITableViewDataSource.app"
             BlueprintName = "ReuseUITableViewDataSource"
             ReferencedContainer = "container:ReuseUITableViewDataSource.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B5F6AA5192C378200367D9D"
+            BlueprintIdentifier = "8BA7BBB0192D584F00B7A923"
             BuildableName = "ReuseUITableViewDataSource.app"
             BlueprintName = "ReuseUITableViewDataSource"
             ReferencedContainer = "container:ReuseUITableViewDataSource.xcodeproj">

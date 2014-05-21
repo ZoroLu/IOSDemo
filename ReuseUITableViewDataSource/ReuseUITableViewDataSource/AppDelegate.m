@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  ReuseUITableViewDataSource
 //
-//  Created by LGQ on 14-5-20.
+//  Created by LGQ on 14-5-21.
 //  Copyright (c) 2014年 LGQ. All rights reserved.
 //
 
@@ -15,9 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    MainViewController* mainVC = [[MainViewController alloc] init];
+    self.window.rootViewController = mainVC;
     
-    self.window.rootViewController = [[MainViewController alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
