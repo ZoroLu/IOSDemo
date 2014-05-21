@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface MainViewController : UIViewController<UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (retain, nonatomic)NSMutableArray* dataArray;

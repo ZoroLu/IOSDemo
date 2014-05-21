@@ -21,6 +21,7 @@
 		8BA7BBDA192D585000B7A923 /* ReuseUITableViewDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBD9192D585000B7A923 /* ReuseUITableViewDataSourceTests.m */; };
 		8BA7BBE7192D588300B7A923 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE5192D588300B7A923 /* MainViewController.m */; };
 		8BA7BBE8192D588300B7A923 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE6192D588300B7A923 /* MainViewController.xib */; };
+		8BA7BBEC192D5DA000B7A923 /* OneSectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBEB192D5DA000B7A923 /* OneSectionDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8BA7BBE4192D588300B7A923 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MainViewController/MainViewController.h; sourceTree = "<group>"; };
 		8BA7BBE5192D588300B7A923 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MainViewController/MainViewController.m; sourceTree = "<group>"; };
 		8BA7BBE6192D588300B7A923 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = MainViewController/MainViewController.xib; sourceTree = "<group>"; };
+		8BA7BBEA192D5DA000B7A923 /* OneSectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneSectionDataSource.h; path = Delegate/OneSectionDataSource.h; sourceTree = "<group>"; };
+		8BA7BBEB192D5DA000B7A923 /* OneSectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneSectionDataSource.m; path = Delegate/OneSectionDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		8BA7BBBA192D584F00B7A923 /* ReuseUITableViewDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				8BA7BBE9192D5D6A00B7A923 /* Delegate */,
 				8BA7BBE3192D585800B7A923 /* MainViewController */,
 				8BA7BBC3192D584F00B7A923 /* AppDelegate.h */,
 				8BA7BBC4192D584F00B7A923 /* AppDelegate.m */,
@@ -158,6 +162,15 @@
 				8BA7BBE6192D588300B7A923 /* MainViewController.xib */,
 			);
 			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		8BA7BBE9192D5D6A00B7A923 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8BA7BBEA192D5DA000B7A923 /* OneSectionDataSource.h */,
+				8BA7BBEB192D5DA000B7A923 /* OneSectionDataSource.m */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 				8BA7BBC5192D584F00B7A923 /* AppDelegate.m in Sources */,
 				8BA7BBE7192D588300B7A923 /* MainViewController.m in Sources */,
 				8BA7BBC1192D584F00B7A923 /* main.m in Sources */,
+				8BA7BBEC192D5DA000B7A923 /* OneSectionDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
